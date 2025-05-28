@@ -12,5 +12,7 @@ public class Variavel {
         Long numeroMegaGrande = 99999999999999L;
 
         System.out.println(numeroMegaGrande);
+
+        // Para criar variáveis constantes, colocar 'final' antes do valor da variável.
     }
 }
