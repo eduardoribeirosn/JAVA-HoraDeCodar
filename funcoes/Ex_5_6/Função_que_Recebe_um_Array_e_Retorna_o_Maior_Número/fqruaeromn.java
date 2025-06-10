@@ -1,7 +1,5 @@
 package funcoes.Ex_5_6.Função_que_Recebe_um_Array_e_Retorna_o_Maior_Número;
 
-import java.util.Scanner;
-
 public class fqruaeromn {
     
     public static void main(String[] args) {
