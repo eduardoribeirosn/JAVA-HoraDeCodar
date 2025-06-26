@@ -35,7 +35,7 @@ public class Forca {
         
         Scanner scanner = new Scanner(System.in);
 
-        String secretWord = scanner.nextLine();
+        String secretWord = "Shakhtar Donetsk";
         String[] hiddenWord = new String[secretWord.length()];
         Arrays.fill(hiddenWord, "_");
 
@@ -46,7 +46,7 @@ public class Forca {
         String tryWord = "";
         String attemptsLyrics = "";
 
-        while(contError < 10) {
+        while(contError < 5) {
 
             showWord = "";
             correctWord = false;
@@ -57,7 +57,7 @@ public class Forca {
 
             }
 
-            System.out.println("\n\n\n\n\n\nTentativas restantes: " + (10 - contError) + "\nLetras erradas: " + attemptsLyrics + "\n" + showWord + "\n\nDigite uma letra: ");
+            System.out.println("\n\n\n\n\n\nTentativas restantes: " + (5 - contError) + "\nLetras erradas: " + attemptsLyrics + "\n" + showWord + "\n\nDigite uma letra: ");
             tryWord = scanner.nextLine();
 
 
